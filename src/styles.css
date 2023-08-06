@@ -29,5 +29,28 @@ body, html {
 .nav a:hover {
     background-color: darkred;
     color: aliceblue;
+
     padding: 0.5rem 2.5rem;
+}
+
+.background-image {
+    background-color: aliceblue;
+    background-image: url(../assets/mountain_view_1.jpg);
+
+    padding: 18rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image h1 {
+    background-color: rgba(139,0,0,.5);
+    color: aliceblue;
+
+    padding: 2rem;
+
+    font-size: 3rem;
+
+    text-align: center;
 }
