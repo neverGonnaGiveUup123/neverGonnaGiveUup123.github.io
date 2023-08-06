@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: aliceblue;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    color: darkred;
+    font-size: 2rem;
+}
+
+.nav a:hover {
+    background-color: darkred;
+    color: aliceblue;
+    padding: 0.5rem 2.5rem;
+}
