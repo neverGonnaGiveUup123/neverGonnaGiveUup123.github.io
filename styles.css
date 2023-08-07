@@ -38,7 +38,7 @@ html {
 
 .background-image {
   background-color: aliceblue;
-  background-image: url(../assets/mountain_view_1.jpg);
+  background-image: url(assets/mountain_view_1.jpg);
   background-repeat: no-repeat;
 
   padding: 8rem;
@@ -63,7 +63,7 @@ html {
   text-align: center;
 }
 
-.background-image .sub-background-image .book-now-button {
+.book-now-button {
   margin: 1.5rem;
   padding: 1.5rem;
 
@@ -76,7 +76,7 @@ html {
   transition: all 0.3s ease-in-out;
 }
 
-.background-image .sub-background-image .book-now-button:hover {
+.book-now-button:hover {
   color: darkred;
   background-color: aliceblue;
 }
@@ -125,11 +125,30 @@ html {
   font-size: 3rem;
 }
 
+.book-now-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(assets/mountain_view_dark.jpg);
+}
+
+.book-now-section * {
+  margin: 2rem;
+}
+
+.book-now-section h1 {
+  color: aliceblue;
+  font-size: 3rem;
+}
+
 footer {
   text-align: center;
   color: darkred;
 
   padding: 5rem;
+  margin-top: 10rem;
 
   background-color: aliceblue;
 }
