@@ -1,56 +1,82 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 .nav a {
-    text-decoration: none;
-    padding: 0.5rem 2rem;
-    color: darkred;
-    font-size: 2rem;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  color: darkred;
+  font-size: 2rem;
+
+  transition: all 0.3s ease-in-out;
 }
 
 .nav a:hover {
-    background-color: darkred;
-    color: aliceblue;
+  background-color: darkred;
+  color: aliceblue;
 
-    padding: 0.5rem 2.5rem;
+  padding: 0.5rem 2rem;
 }
 
 .background-image {
-    background-color: aliceblue;
-    background-image: url(../assets/mountain_view_1.jpg);
+  background-color: aliceblue;
+  background-image: url(../assets/mountain_view_1.jpg);
+  background-repeat: no-repeat;
 
-    padding: 18rem;
+  padding: 8rem;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.background-image h1 {
-    background-color: rgba(139,0,0,.5);
-    color: aliceblue;
+.background-image .sub-background-image {
+  background-color: rgba(139, 0, 0, 0.5);
+  color: aliceblue;
 
-    padding: 2rem;
+  padding: 2rem;
 
-    font-size: 3rem;
+  font-size: 1rem;
 
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.background-image .sub-background-image .book-now-button {
+  margin: 1.5rem;
+  padding: 1.5rem;
+
+  border: 0.2rem solid aliceblue;
+  border-radius: 0.2rem;
+
+  color: aliceblue;
+  text-decoration: none;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.background-image .sub-background-image .book-now-button:hover {
+  color: darkred;
+  background-color: aliceblue;
 }
