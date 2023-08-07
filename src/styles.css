@@ -117,3 +117,12 @@ html {
   color: darkred;
   font-size: 3rem;
 }
+
+footer {
+  text-align: center;
+  color: darkred;
+
+  padding: 5rem;
+
+  background-color: aliceblue;
+}
