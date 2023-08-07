@@ -83,11 +83,18 @@ html {
 
 .informative-section {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 
   margin: 10rem 4rem;
+}
+
+#about-us {
+  flex-direction: row;
+}
+
+#chalet-section { 
+  flex-direction: row-reverse;
 }
 
 .informative-section img {
