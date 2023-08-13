@@ -117,7 +117,8 @@ html {
 .informative-section article * {
   word-wrap: break-word;
   font-size: 1.5rem;
-  margin: 1rem;
+  margin: 2rem;
+  list-style: none;
 }
 
 .informative-section h1 {
