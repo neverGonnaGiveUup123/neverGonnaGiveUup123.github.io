@@ -72,6 +72,12 @@ html {
   background-size: cover;
 }
 
+#pukekoChalet {
+  background-image: url(assets/pukeko/chalet_view.jpg);
+  height: 100%;
+  background-size: cover;
+}
+
 .book-now-button {
   margin: 1.5rem;
   padding: 1.5rem;
