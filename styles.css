@@ -39,6 +39,8 @@ html {
 .background-image {
   background-color: aliceblue;
   background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
 
   padding: 8rem;
 
@@ -68,14 +70,14 @@ html {
 
 #kakapoChalet {
   background-image: url(assets/kakapo/cabin_view.jpg);
-  height: 100%;
-  background-size: cover;
 }
 
 #pukekoChalet {
   background-image: url(assets/pukeko/chalet_view.jpg);
-  height: 100%;
-  background-size: cover;
+}
+
+#kereruChalet {
+  background-image: url(assets/kereru/cabin_exterior.jpg);
 }
 
 .book-now-button {
