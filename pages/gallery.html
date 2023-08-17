@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<link rel="stylesheet"
-	href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
-	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../normalise.css">
     <title>Document</title>
@@ -18,10 +19,13 @@
         <a href="pukekoChalet.html">Pūkeko chalet</a>
         <a href="kereruChalet.html">Kererū chalet</a>
     </nav>
-    <section class="gallery">
-        <a data-="fancybox" href="../assets/kakapo/bunk_room.jpg"><img src="../assets/kakapo/bunk_room_thumb.jpg" alt="Kakapo bunk room"></a>
-        <a data-="fancybox" href="../assets/kakapo/cabin_exterior.jpg"><img src="../assets/kakapo/cabin_exterior_thumb.jpg" alt="Kakapo cabin exterior"></a>
-        <a data-="fancybox" href="../assets/kakapo/cabin_view.jpg"><img src="../assets/kakapo/cabin_view_thumb.jpg" alt="Kakapo cabin view"></a>
-    </section>
+    <div class="gallery">
+        <h1>Kakapo Chalet</h1>
+        <section class="gallery-images">
+            <a data-="fancybox" href="../assets/kakapo/bunk_room.jpg"><img src="../assets/kakapo/bunk_room_thumb.jpg" alt="Kakapo bunk room"></a>
+            <a data-="fancybox" href="../assets/kakapo/cabin_exterior.jpg"><img src="../assets/kakapo/cabin_exterior_thumb.jpg" alt="Kakapo cabin exterior"></a>
+            <a data-="fancybox" href="../assets/kakapo/cabin_view.jpg"><img src="../assets/kakapo/cabin_view_thumb.jpg" alt="Kakapo cabin view"></a>
+        </section>
+    </div>
 </body>
 </html>
