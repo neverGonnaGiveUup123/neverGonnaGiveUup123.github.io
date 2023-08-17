@@ -92,7 +92,7 @@ html {
   background-image: url(assets/maunga_club_cabin.jpg);
 }
 
-.book-now-button {
+.button-class {
   margin: 1.5rem;
   padding: 1.5rem;
 
@@ -105,8 +105,8 @@ html {
   transition: all 0.3s ease-in-out;
 }
 
-.book-now-button:hover {
-  color: darkred;
+.button-class:hover {
+  color: black;
   background-color: aliceblue;
 }
 
