@@ -192,8 +192,8 @@ html {
 }
 
 .gallery {
-  border-top: solid darkred;
-  border-bottom: solid darkred;
+  border-top: solid darkred 1rem;
+  border-bottom: solid darkred 1rem;
 
   margin: 5rem 0%;
   padding: 2rem 0%;
@@ -230,4 +230,16 @@ footer {
   margin-top: 10rem;
 
   background-color: aliceblue;
+}
+
+@media screen and (max-width: 500px) {
+  .nav a {
+    font-size: 1rem;
+
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav a:hover {
+    padding: 0.5rem 1rem;
+  }
 }
