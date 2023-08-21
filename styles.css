@@ -85,12 +85,7 @@ h1 {
   transition: all 0.3s ease-in-out;
 }
 
-.submit-button:hover {
-  background-color: aliceblue;
-  color: black;
-}
-
-.background-image .sub-background-image #fileInput {
+.background-image .sub-background-image .fileInput {
   text-align-last: center;
 }
 
@@ -142,11 +137,11 @@ h1 {
   margin: 10rem 4rem;
 }
 
-#orientate-right {
+.orientate-right {
   flex-direction: row;
 }
 
-#orientate-left {
+.orientate-left {
   flex-direction: row-reverse;
 }
 
@@ -198,11 +193,11 @@ h1 {
   font-size: 3rem;
 }
 
-#gallery-orientate-right {
+.gallery-orientate-right {
   right: 5rem;
 }
 
-#gallery-orientate-left {
+.gallery-orientate-left {
   left: 5rem;
 }
 
