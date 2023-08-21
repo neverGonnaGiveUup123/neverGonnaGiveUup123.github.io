@@ -152,13 +152,14 @@ h1 {
 
 .informative-section img {
   width: 50%;
+  border-radius: 1rem;
 }
 
 .informative-section * {
   margin-inline: 1rem;
 }
 
-.informative-section article {
+.informative-section section {
   border: solid 0.2rem darkred;
   border-radius: 1.5rem;
 
@@ -167,7 +168,7 @@ h1 {
   text-align: center;
 }
 
-.informative-section article * {
+.informative-section section * {
   word-wrap: break-word;
   font-size: 1.5rem;
   margin: 2rem;
