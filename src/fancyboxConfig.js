@@ -9,4 +9,4 @@ Fancybox.bind('[data-fancybox]', {
             right: ["close"],
         }
     }
-  });
+});

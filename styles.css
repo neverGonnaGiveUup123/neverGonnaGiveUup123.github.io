@@ -1,3 +1,4 @@
+/* Standard convetion to prevent inteference from the default CSS */
 body,
 html {
   margin: 0;
@@ -13,6 +14,7 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Make the navbar display in an orderly line which is centered */
 .nav {
   display: flex;
   flex-direction: row;
@@ -22,6 +24,7 @@ html {
   background-color: aliceblue;
 }
 
+/* Style the navbar links + animation */
 .nav a {
   text-decoration: none;
   padding: 0.5rem 2rem;
@@ -31,6 +34,7 @@ html {
   transition: all 0.3s ease-in-out;
 }
 
+/* Styling on navbar hovering + execute animation */
 .nav a:hover {
   background-color: darkred;
   color: aliceblue;
@@ -38,6 +42,7 @@ html {
   padding: 0.5rem 2rem;
 }
 
+/* Style the background images */
 .background-image {
   background-color: aliceblue;
   background-repeat: no-repeat;
@@ -49,6 +54,7 @@ html {
   align-items: center;
 }
 
+/* Style the red sections often found inside the background images */
 .background-image .sub-background-image {
   background-color: rgba(139, 0, 0, 0.5);
   color: aliceblue;
@@ -64,6 +70,7 @@ html {
   text-align: center;
 }
 
+/* Style these specific elements within the sub background section */
 .background-image .sub-background-image label,
 input,
 h1 {
@@ -72,23 +79,12 @@ h1 {
   padding: 0.2rem 1rem;
 }
 
-.submit-button {
-  border-radius: 1rem;
-  border-color: aliceblue;
-
-  margin: 1rem;
-  padding: 1rem 2rem;
-
-  color: aliceblue;
-  background-color: rgba(139, 0, 0, 0.5);
-
-  transition: all 0.3s ease-in-out;
-}
-
+/* Center all the inputs on the form page */
 .background-image .sub-background-image .fileInput {
   text-align-last: center;
 }
 
+/* Give each background image a unique image depending on it's id */
 #homePage {
   background-image: url(assets/mountain_view_1.jpg);
 }
@@ -109,6 +105,7 @@ h1 {
   background-image: url(assets/maunga_club_cabin.jpg);
 }
 
+/* Styling for all the buttons */
 .button-class {
   margin: 1.5rem;
   padding: 1.5rem;
@@ -124,11 +121,13 @@ h1 {
   cursor: pointer;
 }
 
+/* Styling for when you hover on the buttons */
 .button-class:hover {
   color: black;
   background-color: aliceblue;
 }
 
+/* Styling for the sections containing the information on the home and chalet pages */
 .informative-section {
   display: flex;
   justify-content: center;
@@ -137,14 +136,16 @@ h1 {
   margin: 10rem 4rem;
 }
 
+/* If an element has this class, make it start from the right */
 .orientate-right {
   flex-direction: row;
 }
-
+/* Otherwise reverse it */
 .orientate-left {
   flex-direction: row-reverse;
 }
 
+/* Styling for the images which accompany the paragraphs */
 .informative-section img {
   width: 50%;
   border-radius: 1rem;
@@ -154,6 +155,7 @@ h1 {
   margin-inline: 1rem;
 }
 
+/* Styling paragraphs for the info sections */
 .informative-section section {
   border: solid 0.2rem darkred;
   border-radius: 1.5rem;
@@ -163,6 +165,7 @@ h1 {
   text-align: center;
 }
 
+/* For the elements within the paragraoh section */
 .informative-section section * {
   word-wrap: break-word;
   font-size: 1.5rem;
@@ -170,11 +173,13 @@ h1 {
   list-style: none;
 }
 
+/* The info section heading styling */
 .informative-section h1 {
   color: darkred;
   font-size: 3rem;
 }
 
+/* Styling for the bottom section above the footer which houses the book now button + gallery */
 .book-now-section {
   display: flex;
   flex-direction: column;
@@ -184,15 +189,18 @@ h1 {
   background-image: url(assets/mountain_view_dark.jpg);
 }
 
+/*  For the elements inside the book now section */
 .book-now-section * {
   margin: 2rem;
 }
 
+/* for the book now section headers */
 .book-now-section h1 {
   color: aliceblue;
   font-size: 3rem;
 }
 
+/* Like the orientate-right class but for the gallery */
 .gallery-orientate-right {
   right: 5rem;
 }
@@ -201,6 +209,7 @@ h1 {
   left: 5rem;
 }
 
+/* For the whole gallery */
 .gallery-whole {
   position: relative;
 
@@ -212,6 +221,7 @@ h1 {
   width: 100%;
 }
 
+/* These are the backgrounds for the images in the gallery */
 .gallery-article {
   color: aliceblue;
 
@@ -228,6 +238,7 @@ h1 {
   background-color: rgba(139, 0, 0, 0.5);
 }
 
+/* Each gallery image styling */
 .gallery-article a {
   font-size: 0px;
 
@@ -236,6 +247,7 @@ h1 {
   margin: 1rem 0rem;
 }
 
+/* The footer styling */
 footer {
   text-align: center;
   color: darkred;
@@ -243,16 +255,4 @@ footer {
   padding: 5rem;
 
   background-color: aliceblue;
-}
-
-@media screen and (max-width: 500px) {
-  .nav a {
-    font-size: 1rem;
-
-    padding: 0.5rem 1rem;
-  }
-
-  .nav a:hover {
-    padding: 0.5rem 1rem;
-  }
 }
