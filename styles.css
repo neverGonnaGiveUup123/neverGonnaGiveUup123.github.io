@@ -121,7 +121,7 @@ h1 {
   cursor: pointer;
 }
 
-/* Styling for when you hover on the buttons */
+/* Styling for when you hover over the buttons */
 .button-class:hover {
   color: black;
   background-color: aliceblue;
@@ -140,7 +140,7 @@ h1 {
 .orientate-right {
   flex-direction: row;
 }
-/* Otherwise reverse it */
+/* Otherwise start from the left */
 .orientate-left {
   flex-direction: row-reverse;
 }
