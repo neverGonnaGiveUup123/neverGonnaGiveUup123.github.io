@@ -8,6 +8,12 @@
     <!-- link the css files -->
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="normalise.css" />
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <script src="src/fancyboxConfig.js" defer></script>
   </head>
   <body>
     <!-- navbar -->
@@ -64,8 +70,14 @@
     <div class="book-now-section">
       <h1>Book a chalet with us</h1>
       <a class="button-class" href="pages/formPage.html">Book now</a>
-      <h1>View our full gallery</h1>
-      <a class="button-class" href="pages/gallery.html">View gallery</a>
+      <div class="gallery">
+		<a href="assets/kakapo/bunk_room.jpg" data-fancybox="gallery"><img src="assets/kakapo/bunk_room_thumb.jpg"></a>
+		<a href="assets/kakapo/cabin_exterior.jpg" data-fancybox="gallery"><img src="assets/kakapo/cabin_exterior_thumb.jpg"></a>
+		<a href="assets/kakapo/cabin_view.jpg" data-fancybox="gallery"><img src="assets/kakapo/cabin_view_thumb.jpg"></a>
+		<a href="assets/kereru/adult_bedroom.jpg" data-fancybox="gallery"><img src="assets/kereru/adult_bedroom_thumb.jpg"></a>
+		<a href="assets/kereru/cabin_exterior.jpg" data-fancybox="gallery"><img src="assets/kereru/cabin_exterior_thumb.jpg"></a>
+		<a href="assets/kereru/kids_bedroom.jpg" data-fancybox="gallery"><img src="assets/kereru/kids_bedroom_thumb.jpg"></a>
+      </div>
     </div>
     <footer>
       <p>Maunga Club by Siddharth Sahadew</p>

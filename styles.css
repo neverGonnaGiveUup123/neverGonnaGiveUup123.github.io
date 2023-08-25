@@ -200,51 +200,24 @@ h1 {
   font-size: 3rem;
 }
 
-/* Like the orientate-right class but for the gallery */
-.gallery-orientate-right {
-  right: 5rem;
-}
-
-.gallery-orientate-left {
-  left: 5rem;
-}
-
-/* For the whole gallery */
-.gallery-whole {
-  position: relative;
-
+/* styling for the image gallery on the homepage */
+.gallery {
   display: flex;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-.gallery-bg-img {
-  width: 100%;
+.gallery a {
+  font-size: 0rem;
+
+  margin-inline: 0.5rem;
+
+  border: inset aliceblue 0.4rem;
 }
 
-/* These are the backgrounds for the images in the gallery */
-.gallery-article {
-  color: aliceblue;
-
-  padding: 2rem;
-
-  position: absolute;
-  z-index: 1;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-
-  background-color: rgba(139, 0, 0, 0.5);
-}
-
-/* Each gallery image styling */
-.gallery-article a {
-  font-size: 0px;
-
-  border: inset aliceblue 0.5rem;
-
-  margin: 1rem 0rem;
+.gallery img {
+  margin: 0rem;
 }
 
 /* The footer styling */
